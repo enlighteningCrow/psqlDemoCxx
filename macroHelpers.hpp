@@ -40,10 +40,11 @@
 #define __PG_CMP___EXPAND_makeLambda__(__PG_CMP___ARGUMENTS__)                 \
   __PG_CMP___EXPAND___(__PG_CMP___ARGUMENTS__)
 
-#endif // MACROHELPERS_HPP_PREPGENPGEN        \
-  __PG_CMP___REC_FN_makeLambda_A__(body, type, pName, pDesc, __VA_ARGS__)
 #define makeLambda(body, type, pName, pDesc, ...)                              \
   __PG_CMP___REC_FN_makeLambda__(body, type, pName, pDesc, __VA_ARGS__)
 
 #define __PG_CMP___EXPAND_makeLambda__(__PG_CMP___ARGUMENTS__)                 \
   __PG_CMP___EXPAND___(__PG_CMP___ARGUMENTS__)
+
+#endif // MACROHELPERS_HPP_PREPGENPGEN        \
+  __PG_CMP___REC_FN_makeLambda_A__(body, type, pName, pDesc, __VA_ARGS__)
