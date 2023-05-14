@@ -1,0 +1,8 @@
+@def makeLambda(body, type, pName, pDesc, ...)
+@h "[](work& tx){" @
+@b "type pName;std::cout << \"Enter the \"pDesc\":\\t\";readInto<type>(pName, pDesc);" @
+@f "body}" @
+@r (type, ...) @
+@
+
+
